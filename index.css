@@ -1,0 +1,84 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#GeneralBlock{
+	width: 480px;
+	height: 730px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#GeneralBlockHeader{
+	width: inherit;
+	height: 80px;
+}
+
+#GeneralBlockHeader h1{
+	padding-top: 25px;
+	text-align: center;
+	font-family: Cambria;
+	font-size: 40px;
+	color: #B800E6;
+}
+
+#GeneralBlockCentral{
+	width: inherit;
+	height: 650px;
+	float: left;
+}
+
+#GeneralBlockCentral img{
+	width: inherit;
+	height: 630px;
+	margin-top: 20px;
+	position: absolute;
+	z-index: 1;
+}
+
+#GeneralBlockCentralContentBlock{
+	width: 345px;
+	height: 604px;
+	margin-top: 31px;
+	margin-left: 62px;
+	background-color: #CCCCFF;
+	position: absolute;
+	z-index: 2;
+}
+
+#GeneralBlockCentralContentBlock form{
+	margin-top: 100px;
+}
+
+#GeneralBlockCentralContentBlock h2{
+	width: inherit;
+	height: 28px;
+	margin-top: 20px;
+	font-family: Arial;
+	font-size: 150%;
+	text-align: center;
+}
+
+.GeneralBlockCentralContentBlockInputText{
+	width: 195px;
+	height: 25px;
+	padding-left: 5px;
+	margin-left: 75px;
+	margin-top: 20px;
+}
+
+#GeneralBlockCentralContentBlockButtonSubmit{
+	margin-left: 75px;
+}
+
+.GeneralBlockCentralContentBlockButtons{
+	margin-top: 30px;
+	width: 100px;
+	height: 30px;
+}
+
+.GeneralBlockCentralContentBlockButtons:hover{
+	color: red;
+
+}

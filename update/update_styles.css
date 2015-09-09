@@ -1,0 +1,222 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#GeneralBlock{
+	width: 900px;
+	height: 730px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#GeneralBlockHeader{
+	width: inherit;
+	height: 80px;
+}
+
+#GeneralBlockHeader h1{
+	padding-top: 10px;
+	text-align: center;
+	font-family: Cambria;
+	font-size: 40px;
+	color: #B800E6;
+}
+
+#GeneralBlockLeft{
+	width: 210px;
+	height: 650px;
+	float: left;
+}
+
+#GeneralBlockLeftInsideBlock{
+	width: 190px;
+	height: 150px;
+	float: left;
+	margin-top: 20px;
+}
+
+#GeneralBlockLeftInsideBlock h2{
+	height: 30px;
+	font-family: Times;
+	padding-top: 6px;
+	font-size: 25px;
+	color: #FF0066;
+}
+
+#GeneralBlockLeftInsideBlock h3{
+	float: left;
+	text-align: left;
+	font-family: Times;
+	font-size: 20px;
+	margin-top: 9px;
+	color: #66CCFF;
+}
+
+#GeneralBlockCentral{
+	width: 480px;
+	height: 650px;
+	float: left;
+}
+
+#GeneralBlockCentralHeader{
+	width: inherit;
+	height: 31px;
+	position: absolute;
+	z-index: 3;
+}
+
+#GeneralBlockCentralHeader ul li{
+	width: 70px;
+	height: 31px;
+	text-align: center;
+	list-style-type: none;
+	display: inline-block;
+	border-radius: 8px 8px 0px 0px;
+}
+
+#GeneralBlockCentralHeader ul li a{
+	text-decoration: none;
+	color: black;
+}
+
+#GeneralBlockCentralHeaderFirstLi{
+	margin-left: 80px;
+	background-color: #FFFFB2;
+}
+
+#GeneralBlockCentralHeaderFirstLi:hover{
+	text-decoration: underline;
+}
+
+#GeneralBlockCentralHeaderSecondLi{
+	background-color: #FFD1F0;
+}
+
+#GeneralBlockCentralHeaderSecondLi:hover{
+	text-decoration: underline;
+}
+
+#GeneralBlockCentralHeaderThirdLi{
+	background-color: #CCFFB2;
+	font-weight: bold;
+}
+
+#GeneralBlockCentralHeaderFourLi{
+	background-color: #C2F0FF;
+}
+
+#GeneralBlockCentralHeaderFourLi:hover{
+	text-decoration: underline;
+}
+
+.GeneralBlockCentralHeaderLi{
+	margin-left: 5px;
+}
+
+#GeneralBlockCentral img{
+	width: inherit;
+	height: 630px;
+	margin-top: 20px;
+	position: absolute;
+	z-index: 1;
+}
+
+#GeneralBlockCentralContentBlock{
+	width: 345px;
+	height: 604px;
+	margin-top: 31px;
+	margin-left: 62px;
+	background-color: #CCFFB2;
+	position: absolute;
+	z-index: 2;
+}
+
+#GeneralBlockCentralContentBlock h2{
+	width: inherit;
+	height: 28px;
+	margin-top: 20px;
+	font-family: Arial;
+	font-size: 150%;
+	text-align: center;
+}
+
+#GeneralBlockCentralContentBlock form{
+	margin-top: 100px;
+}
+
+#GeneralBlockCentralContentBlockInputPersonalCode1{
+	width: 85px;
+	height: 25px;
+	margin-left: 75px;
+	margin-right: 5px;
+	margin-top: 5px;
+	padding-left: 5px;
+}
+
+#GeneralBlockCentralContentBlockInputPersonalCode2{
+	width: 85px;
+	height: 25px;
+	margin-left: 5px;
+	margin-top: 5px;
+	padding-left: 5px;
+}
+
+#GeneralBlockCentralContentBlockButtonSubmit{
+	margin-left: 75px;
+	margin-right: 5px;
+}
+
+.GeneralBlockCentralContentBlockButtons{
+	margin-top: 30px;
+	width: 100px;
+	height: 30px;
+}
+
+.GeneralBlockCentralContentBlockButtons:hover{
+	color: red;
+
+}
+
+#GeneralBlockRight{
+	width: 210px;
+	height: 650px;
+	float: left;
+}
+
+#GeneralBlockRightInsideBlock{
+	width: 190px;
+	height: 150px;
+	float: right;
+	margin-top: 20px;
+}
+
+#GeneralBlockRightInsideBlock h2{
+	text-align: left;
+	font-family: Times;
+	font-size: 21px;
+	color: #FF0066;
+}
+
+#GeneralBlockRightInsideBlock h3{
+	text-align: right;
+	font-family: Times;
+}
+
+#GeneralBlockRightInsideBlockNameSurname{
+	font-size: 19px;
+	margin-top: 20px;
+	color: #66CCFF;
+}
+
+#GeneralBlockRightInsideBlockLogout{
+	font-size: 20px;
+	margin-top: 20px;
+	font-size: 15px;
+	color: #5CD65C;
+}
+
+#GeneralBlockRightInsideBlockLogout:hover{
+	text-decoration: underline;
+	font-size: 16px;
+}
